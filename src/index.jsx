@@ -1,5 +1,4 @@
 import './style.css';
-import { inject } from '@vercel/analytics';
 import ReactDOM from 'react-dom/client';
 import { Canvas } from '@react-three/fiber';
 import Experience from './Experience.jsx';
@@ -19,5 +18,3 @@ root.render(
     <Experience />
   </Canvas>
 );
-
-inject();
