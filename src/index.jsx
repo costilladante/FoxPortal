@@ -1,5 +1,5 @@
 import './style.css';
-// import { SpeedInsights } from '@vercel/speed-insights/next';
+import { inject } from '@vercel/analytics';
 import ReactDOM from 'react-dom/client';
 import { Canvas } from '@react-three/fiber';
 import Experience from './Experience.jsx';
@@ -16,7 +16,8 @@ root.render(
       position: [1, 2, 8],
     }}
   >
-    {/* <SpeedInsights /> */}
     <Experience />
   </Canvas>
 );
+
+inject();
