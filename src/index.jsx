@@ -1,4 +1,5 @@
 import './style.css';
+// import { SpeedInsights } from '@vercel/speed-insights/next';
 import ReactDOM from 'react-dom/client';
 import { Canvas } from '@react-three/fiber';
 import Experience from './Experience.jsx';
@@ -12,9 +13,10 @@ root.render(
       fov: 45,
       near: 0.1,
       far: 200,
-      position: [1, 2, 6],
+      position: [1, 2, 8],
     }}
   >
+    {/* <SpeedInsights /> */}
     <Experience />
   </Canvas>
 );
