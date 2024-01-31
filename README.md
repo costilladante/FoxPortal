@@ -5,4 +5,4 @@ Built with React + Vite ⚡
 
 Models made in Blender.
 
-| 🕙 More updates incoming...
+See the result [here](https://fox-portal.vercel.app/)!
